@@ -5,6 +5,7 @@ This simple utility will disable cpu cores on a physical CPU package.  You may d
 So for example if you want to do some testing without hyperthreading, then you can run this tool a coouple of times to disable hyperthreads on each CPU (assuming you have two) as such:
 
 python ccd.py hyperthread --package 0
+
 python ccd.py hyperthread --package 1
 
 You may also wish to disable an entire CPU, so you can test stuff.  Rather than physically removing one of the CPU's or changing boot parameters you can do this:
